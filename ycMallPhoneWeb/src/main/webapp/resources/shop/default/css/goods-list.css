@@ -1,0 +1,239 @@
+body{
+    background-color: #f3f4f6;
+}
+
+.goood-title-nav{
+    position: relative;
+    height: 1.76rem;
+    background:#f8f8f8;
+    line-height: 1.76rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.good-back{
+    position: absolute;
+    left: .5rem;
+    top:0;
+    width: .48rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.cart-edit-opt{
+    position: absolute;
+    right: .5rem;
+    top:0;
+    width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.cart-finished-opt{
+    display: none;
+    position: absolute;
+    right: .5rem;
+    top:0;
+    width: 2rem;
+    height: 1.5rem;
+    text-align: center;
+}
+
+.good-back>a{
+    display: inline-block;
+    background-image: url("../img/icon/back-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.goodInfoWrap{
+    margin-top: .4rem;
+    overflow-x: hidden;
+}
+
+.good-title-name{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: #353d44;
+    font-size: .7rem;
+}
+
+.item-form{
+    position: relative;
+    display: -webkit-box;
+}
+
+.cart-tbody{
+    margin-bottom: 3rem;
+}
+
+.item-list{
+    padding: .3rem 0;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.goods-info{
+    display: -webkit-box;
+    margin-left: .88rem;
+}
+
+.goods-info .p-img{
+    width: 4rem;
+    height: 4rem;
+}
+
+.goods-info .p-img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DCDCDC;
+    border-radius: .3rem;
+    vertical-align: middle;
+}
+
+.goods-info .p-name{
+    margin: 0.5rem .5rem;
+    max-width: 70%;
+    font-size: .52rem;
+}
+
+.goods-info .p-name .goods-name{
+    display: -webkit-box;
+    min-height: 1.6rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.goods-info .p-name .goods-price{
+    margin-top: .2rem;
+    color: #ff0000;
+}
+
+.goods-info .p-name .goods-quantity{
+    margin-top: .2rem;
+}
+
+.goods-info .p-name .goods-quantity .decrement{
+    float: left;
+    width: 1.2rem;
+    height: .84rem;
+    line-height: .84rem;
+    background: url("../img/icon/min-cover.png") center no-repeat;
+    background-size: .6rem;
+    border: 1px solid #bababa;
+    border-right: none;
+}
+
+.goods-info .p-name .goods-quantity .increment{
+    float: left;
+    width: 1.2rem;
+    height: .84rem;
+    line-height: .84rem;
+    background: url("../img/icon/add.png") center no-repeat;
+    background-size: .6rem;
+    border: 1px solid #bababa;
+    border-left: none;
+}
+
+.goods-info .p-name .goods-quantity input{
+    float: left;
+    width: 1.6rem;
+    height: .84rem;
+    line-height: .84rem;
+    text-align:center;
+    border: 1px solid #bababa;
+}
+
+.product-promotion-wrap{
+    display: inline-block;
+}
+
+.product-promotion-wrap li{
+    margin-left: 1.3rem;
+    line-height: 1.3rem;
+}
+
+.prom-type-icon{
+    margin-right: .3rem;
+    padding: .2rem .3rem;
+    background-color: #ffc32d;
+    color: #FFFFFF;
+    font-style: normal;
+    border-radius: .2rem;
+}
+
+.cart-opt{
+    position: fixed;
+    bottom: 0;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    width: 100%;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.cart-opt em{
+    font-style: normal;
+}
+
+.cart-total-price{
+    display: inline-block;
+    width: 50%;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.cal-btn-opt{
+    display: inline-block;
+    float: right;
+    width: 25%;
+    height: 2.5rem;
+    font-size: .8rem;
+    line-height: 2.5rem;
+    background-color: #ff9c00;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.item-list .cart-list-opra {
+    position: absolute;
+    right: -6rem;
+    /*right: 0rem;*/
+    top: 0;
+    -webkit-transition: right .5s ease-in;
+}
+
+.cart-list-opra em{
+    font-style:normal;
+}
+
+.cart-list-opra .cart-edit-ico{
+    display: inline-block;
+    padding: .4rem .2rem;
+    margin: .2rem 0;
+    width: 4rem;
+    text-align: center;
+}
+
+.cart-list-opra .cart-del-ico{
+    background-color: #fa3e39;
+    color: #f5f4f5;
+}
+
+.cart-list-opra .cart-fav-ico{
+    background-color: #c8c7cc;
+    color: #f5f4f5;
+}
+
+.no-goods-cart{
+    padding: 1rem 0;
+    font-size: .8rem;
+    text-align: center;
+}

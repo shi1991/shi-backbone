@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.puyuntech</groupId>
+  <artifactId>ycMall</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>ycMall</name>
+  <url>http://maven.apache.org</url>
+	
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <springframework.version>4.0.9.RELEASE</springframework.version>
+  </properties>
+
+  <modules>
+  	<module>mobileCommonService</module>
+  	<module>ycMallPhoneWeb</module>
+  </modules>
+
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <jdbc.driver>com.mysql.jdbc.Driver</jdbc.driver>
+
+                <jdbc.url>jdbc:mysql://172.21.1.102:3306/ycmall</jdbc.url>
+                <jdbc.username>ycmall</jdbc.username>
+                <jdbc.password>Ycmall@123</jdbc.password>
+                <indexBase>D:/WEB-INF/index</indexBase>
+                <log.home>D:/WEB-INF/log</log.home>
+                <cache.home>D:/WEB-INF/cache</cache.home>
+
+                <project.info>http://127.0.0.1:7070/</project.info>
+            </properties>
+
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+
+        <profile>
+            <id>test-102</id>
+            <properties>
+                <jdbc.driver>com.mysql.jdbc.Driver</jdbc.driver>
+                <jdbc.url>jdbc:mysql://172.21.1.102:3306/ycmall</jdbc.url>
+                <jdbc.username>ycmall</jdbc.username>
+                <jdbc.password>Ycmall@123</jdbc.password>
+                <indexBase>/home/ycmall/WEB-INF/index</indexBase>
+                <log.home>/home/ycmall/WEB-INF/log</log.home>
+                <cache.home>/home/ycmall/WEB-INF/cache</cache.home>
+                <!-- web -->
+                <project.info>http://58.240.32.170:7072/</project.info>
+                <!-- app -->
+                <!-- <project.info>http://58.240.32.170:7074/</project.info> -->
+            </properties>
+        </profile>
+        
+        <profile>
+            <id>wkb-102</id>
+            <properties>
+                <jdbc.driver>com.mysql.jdbc.Driver</jdbc.driver>
+                <jdbc.url>jdbc:mysql://172.21.1.102:3306/ycmall</jdbc.url>
+                <jdbc.username>ycmall</jdbc.username>
+                <jdbc.password>Ycmall@123</jdbc.password>
+                <indexBase>D:/WEB-INF/index</indexBase>
+                <log.home>D:/WEB-INF/log</log.home>
+                <cache.home>D:/WEB-INF/cache</cache.home>
+                <project.info>http://localhost:8080/ycMallWeb/</project.info>
+            </properties>
+        </profile>
+
+        <profile>
+            <!-- 阿里云 服务 -->
+            <id>product</id>
+            <properties>
+                <jdbc.driver>com.mysql.jdbc.Driver</jdbc.driver>
+                <jdbc.url>jdbc:mysql://127.0.0.1:3306/ycmall_init</jdbc.url>
+                <jdbc.username>root</jdbc.username>
+                <jdbc.password>admin</jdbc.password>
+                <indexBase>/app/tomcat7/webapps/ycmall/WEB-INF/index</indexBase>
+                <log.home>/app/tomcat7/webapps/ycmall/WEB-INF/log</log.home>
+                <cache.home>/app/tomcat7/webapps/ycmall/WEB-INF/cache</cache.home>
+                <project.info>http://shenqiliuguo.com/</project.info>
+            </properties>
+        </profile>
+    </profiles>
+
+</project>

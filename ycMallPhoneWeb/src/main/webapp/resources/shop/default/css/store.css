@@ -1,0 +1,65 @@
+/** 门店 **/
+.content{
+    padding: 0.125rem;
+    overflow-x: hidden;
+}
+
+.store-wrap{
+    margin-bottom: 4em;
+}
+
+.store-wrap li{
+    border-bottom: 1px solid #dddddd;
+}
+
+.store-wrap li a{
+    color: #333333;
+}
+
+.store-wrap .item{
+    display: -webkit-flex!important;
+    display: -webkit-box;
+    padding: .5rem;
+}
+
+.store-wrap .item .store-img{
+    margin-right: .4rem;
+    -webkit-box-sizing: border-box;
+    -webkit-box-align: center;
+}
+
+.store-wrap .item .store-img img{
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    border: 1px solid #DCDCDC;
+}
+.store-wrap .item .store-info{
+    -webkit-box-orient: vertical;
+    -webkit-box-pack: center;
+    word-wrap: break-word;
+    word-break: break-all;
+    -webkit-box-sizing: border-box;
+    -webkit-box-flex:1;
+    -webkit-box-align: center;
+    line-height: 1rem;
+}
+
+.store-wrap .item .store-info .store-name{
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.store-name , .store-time , .store-addr{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: .6rem;
+}
+
+.wbox-flex {
+     -webkit-flex: 1!important;
+     -webkit-box-flex: 1;
+}

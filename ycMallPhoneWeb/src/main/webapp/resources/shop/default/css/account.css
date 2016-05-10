@@ -1,0 +1,108 @@
+body{
+    background-color: #f3f4f6;
+}
+
+.goood-title-nav{
+    position: relative;
+    height: 2.6rem;
+    background:#f8f8f8;
+    line-height: 2.6rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.good-back{
+    position: absolute;
+    left: .5rem;
+    top:0;
+    width: .48rem;
+    height: 2.6rem;
+    line-height: 2.4rem;
+}
+
+.good-back>a{
+    display: inline-block;
+    background-image: url("../img/icon/back-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.good-title-name{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: #353d44;
+    font-size: .7rem;
+}
+
+.mycount-info{
+    position: relative;
+    margin-top: 0.5rem;
+    line-height: 1rem;
+    font-size: .6rem;
+    background-color: #ffffff;
+    padding: 0.3rem ;
+    color: #666666;
+}
+
+.mycount-info-phone{
+    position: absolute;
+    right: 0.3rem;
+    top: 0.3rem;
+}
+
+.mycount-god{
+    margin: 0.5rem;
+    font-size: .6rem;
+    color: #333333;
+}
+
+.mycount-god-selection{
+
+}
+
+.mycount-god-selection ul{
+    text-align: center;
+}
+
+.mycount-god-selection li{
+    padding: .4rem 0;
+    display: inline-block;
+    text-align: center;
+    width: 23%;
+    color: #333333;
+    border: 1px solid #e3e3e3;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+}
+
+.mycount-god-selection li.current{
+    color: #ff9c00;
+    border: 1px solid #ff9c00;
+}
+
+.quick-pay{
+    padding: 0.3rem 2rem;
+    font-size: .6rem;
+    color: #ffffff;
+    background-color: #ff9c00;
+    border-radius: 0.3rem;
+}
+
+#otherNumb{
+    display: none;
+    margin: .4rem 0.5rem ;
+}
+
+#otherNumbValue{
+    padding: 0 0.3rem;
+    height: 1rem;
+    line-height: 1rem;
+    width: 4rem;
+}
+
+.tips{
+    color: #999999;
+}

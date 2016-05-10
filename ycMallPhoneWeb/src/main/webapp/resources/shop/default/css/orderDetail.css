@@ -1,0 +1,172 @@
+body{
+    background-color: #f3f4f6;
+}
+
+.goood-title-nav{
+    position: relative;
+    height: 1.76rem;
+    background:#f8f8f8;
+    line-height: 1.76rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.good-back{
+    position: absolute;
+    left: .5rem;
+    top:0;
+    width: .48rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.good-back>a{
+    display: inline-block;
+    background-image: url("../img/icon/back-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -webkit-baseline-middle;
+}
+.good-title-name{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: #353d44;
+    font-size: .7rem;
+}
+
+
+
+.mb30 {
+    margin-bottom: .3rem;
+}
+.fs30 {
+    font-size: .6rem;
+}
+.sn-block {
+    background: #FFF;
+}
+li, ol, ul {
+    list-style: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.order-list-input li {
+    margin-left: 0;
+    padding-left: .6rem;
+}
+.sn-list-input li {
+    margin-left: .6rem;
+    padding: .5rem .6rem .5rem 0;
+    border-bottom: 1px solid #DCDCDC;
+}
+.sn-list-input li:last-child {
+    border-bottom: none;
+}
+i {
+    font-style: normal;
+}
+.f1{
+	float: right;
+}
+.order-list-input li {
+    margin-left: 0;
+    padding-left: .6rem;
+}
+.sn-list-input label.w3 {
+    display: inline-block;
+    width: 2.8rem;
+    margin-right: 0;
+}
+
+ p {
+    line-height: 1.1rem;
+}
+
+.wboximg {
+    display: -webkit-box;
+    line-height: 1.7rem;
+    padding: .5rem .6rem;
+}
+
+.wbox {
+    height: 1.8rem;
+    padding: 0 .6rem;
+    background: #FFF;
+    border-bottom: 1px solid #DCDCDC;
+    line-height: 1.8rem;
+}
+
+.pro-list .pro-img img {
+    width: 2.4rem;
+    height: 2.4rem;
+    display: block;
+    border: 1px solid #DCDCDC;
+}
+
+a {
+    color: #333333;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+.pro-list .pro-img {
+    margin-right: .4rem;
+}
+
+.pro-list .pro-name {
+    line-height: 1rem;
+    overflow: hidden;
+}
+.fs26 {
+    font-size: .52rem;
+}
+.text-clamp2 {
+    min-height: 1.36rem;
+    text-overflow: ellipsis;
+}
+
+.fs30 {
+    font-size: .6rem;
+    line-height: 1.1rem;
+}
+.sn-txt-black {
+    color: #333;
+}
+
+.pro-list .pro-info .list-opra {
+    position: absolute;
+    right: .7rem;
+    margin-top: -1.68rem;
+}
+.sn-txt-muted {
+    color: #909090;
+    float: right;
+}
+
+.order-online-call {
+    text-align: right;
+    padding-right: 0.5rem;
+}
+
+
+#J_order_foot_bar .mr30, #order-detail-important .mr30 {
+    margin-right: .4rem;
+}
+.sn-btn.sn-btn-assertive ,.sn-btn.sn-btn-topay {
+    background: #E21D1D;
+    color: #fff;
+}
+.sn-btn {
+    display: inline-block;
+    padding: 0 .5rem;
+    text-align: center;
+    width: 3.2rem;
+    height: 1.2rem;
+    line-height: 1.2rem;
+    border-radius: .1rem;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>神器</title>
+    <link rel="stylesheet" href="../resources/shop/default/css/common/base.css"/>
+    <link rel="stylesheet" href="../resources/shop/default/css/index.css"/>
+</head>
+<body>
+
+    <nav class="menu-list">
+        <div id="cool" class="menu select">限量神器</div>
+        <div id="limit" class="menu">酷炫神器</div>
+        <div class="menu">猜你喜欢</div>
+    </nav>
+    <section class="search-opt">
+        <a href="../../goods/searchPage.jhtml" class="search-opt-input">
+
+        </a>
+        <form><input id="searchInput" name="index_none_header_sysc" type="text" placeholder="搜索" autocomplete="off"></form>
+
+    </section>
+
+    <div id="coolProducts" class="cool-products">
+        <!--<ul>
+            <li class="product-item">
+                <a href="../../goods/content/${coolProduct.sn}.jhtml">
+                    <div>
+                        <img class="product-img" src="${coolProduct.productImages[0].large}" />
+                    </div>
+                    <div class="product-info">
+                    ${coolProduct.name}
+                        <br />
+                        <span class="product-price">${currency(coolProduct.price , true)}</span>
+                    </div>
+                </a>
+                [/#list]
+            </li>
+        </ul>-->
+    </div>
+
+    <div id="limitProducts" class="cool-products" style="display: none;">
+        <ul>
+            <!--[#list limitProducts as limitProduct]
+            <li class="product-item">
+                <a href="../../goods/content/${limitProduct.sn}.jhtml">
+                    <div>
+                        <img class="product-img" src="${limitProduct.productImages[0].large}" />
+                    </div>
+                    <div class="product-info">
+                    ${limitProduct.name}
+                        <br />
+                        <span class="product-price">${currency(limitProduct.price , true)}</span>
+                    </div>
+                </a>
+            </li>
+            [/#list]-->
+        </ul>
+    </div>
+
+
+    <script type="text/javascript" src="./js/sea.js"></script>
+    <script>
+        seajs.config({
+            "base":"../page/js"
+        });
+        seajs.use("index");
+    </script>
+
+</body>
+</html>

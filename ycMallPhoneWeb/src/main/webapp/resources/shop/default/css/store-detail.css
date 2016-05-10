@@ -1,0 +1,136 @@
+.menu-list{
+    display: -webkit-flex!important;
+    display: -webkit-box;
+}
+
+.menu-list .menu{
+    padding: .5rem;
+    -webkit-flex: 1!important;
+    -webkit-box-flex: 1;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    background-color: #F2F2F2;
+}
+
+.menu-list .menu.select{
+    color: #efab01;
+}
+
+.store-detail , .store-clerk , .store-active{
+    margin-top: .5rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.product-item{
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    background-color: #FFFFFF;
+}
+
+.store-detail .product-img{
+    width: 100%;
+}
+
+.store-detail .product-info{
+    margin-top: 1rem;
+    line-height: 1rem;
+    color: #333333;
+}
+
+.store-detail .product-info .product-price{
+    color: #efab01;
+}
+
+.store-detail ul{
+    width: 100%;
+}
+
+.store-detail ul img{
+    width: 100%;
+
+}
+
+.store-detail ul li{
+    margin: .3rem 0;
+    padding: .1rem 0;
+    line-height: 1rem;
+}
+
+.store-detail ul li:nth-child(1){
+    margin: .4rem 0;
+}
+
+.store-detail li span{
+    display: inline-block;
+    font-size: .5rem;
+    vertical-align: top;
+}
+
+.store-detail li .desc-label{
+    width: 3rem;
+    text-align: right;
+}
+
+.store-detail li .desc-value{
+    width: 75%;
+    text-align: left;
+}
+
+.org-user .admin-item{
+    display: block;
+    padding: .4rem;
+    width: 100%;
+    border-bottom: 1px solid #bababa;
+}
+
+.org-user .admin-item span {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.org-user .admin-item .img-wrap , .org-active .active-item .img-wrap{
+    width: 4rem;
+    height: 4rem;
+    border: 1px solid #bababa;
+    border-radius: .3rem;
+    overflow: hidden;
+}
+
+.org-user .admin-item .img-wrap img , .org-active .active-item .img-wrap img{
+    width: 100%;
+    height: 100%;
+}
+
+.org-user .admin-item .userinfo , .org-active .active-item .act-content-wrap{
+    margin-left: .4rem;
+    margin-top: .5rem;
+    max-width: 60%;
+}
+
+.org-user .admin-item .userinfo p{
+    font-size: .8rem;
+    line-height: 1rem;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.org-active .active-item{
+    padding: .4rem;
+    border-bottom: 1px solid #bababa;
+}
+
+.org-active .active-item span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.org-active .active-item .act-content-wrap p{
+    padding-bottom: .2rem ;
+    line-height: .5rem;
+}

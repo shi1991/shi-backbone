@@ -1,0 +1,56 @@
+.cashierList{
+    width: 100%;
+}
+
+.cashierRemind{
+    margin: 1rem 0;
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1rem;
+    color: #7bee4d;
+    font-weight: bold;
+}
+
+.cashierFinish{
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+    color: #666666;
+}
+
+.bottom-line{
+    margin-top: 1rem;
+    height: 1px;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.order-info{
+    margin-top: 1rem;
+}
+
+.order-info p{
+    margin: 0 auto;
+    width: 60%;
+    color: #333333;
+}
+
+.order-info p input{
+    border: none;
+    font-size: 0.5rem;
+    line-height: 1rem;
+}
+
+.cashierTypeLast{
+    width: 100%;
+    text-align: center;
+}
+
+.cashierTypeCanel{
+    margin-top: 2rem;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.6rem;
+    color: #ffffff;
+    background-color: #7bee4d;
+    border: none;
+    border-radius: 0.3rem;
+}

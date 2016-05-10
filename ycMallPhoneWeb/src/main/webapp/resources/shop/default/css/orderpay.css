@@ -1,0 +1,486 @@
+body{
+    background-color: #f3f4f6;
+}
+
+.goood-title-nav{
+    position: relative;
+    height: 1.76rem;
+    background:#f8f8f8;
+    line-height: 1.76rem;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+.good-back{
+    position: absolute;
+    left: .5rem;
+    top:0;
+    width: .48rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.good-back>a{
+    display: inline-block;
+    background-image: url("../img/icon/back-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: -webkit-baseline-middle;
+}
+
+.good-title-name{
+    margin: 0 auto;
+    text-align: center;
+    width: 60%;
+    color: #353d44;
+    font-size: .7rem;
+}
+
+.receiver-info-wrap{
+    padding: .5rem .8rem;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+
+.receiver-info-wrap .receiver-name{
+    margin-right: 1rem;
+    font-size: .8rem;
+    font-weight: lighter;
+}
+
+.receiver-info-wrap .receiver-info{
+    position: relative;
+}
+
+.receiver-info-wrap .receiver-info p{
+    line-height: 1rem;
+    font-size: .6rem;
+}
+
+.receiver-info-wrap .receiver-info .receiver-addr{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: lighter;
+    color: #666666;
+}
+
+.receiver-info-wrap .receiver-info:after {
+    top: 0.7rem;
+}
+
+.goods-info-wrap{
+    margin-top: .6rem;
+    padding: .8rem;
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+}
+
+.goods-info-wrap .goods-info-list{
+    position: relative;
+}
+
+.goods-info-wrap .goods-info-list:after {
+    top: 0.7rem;
+}
+
+.goods-info-wrap ul{
+    display: -webkit-box;
+    width: 100%;
+    overflow: hidden;
+}
+
+.goods-info-wrap ul .goods-info-item{
+    margin-right: .3rem;
+}
+
+.goods-info-wrap ul .goods-info-item .p-img{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+}
+
+.delivery-info-wrap{
+    padding: .8rem;
+    background-color: #FFFFFF;
+}
+
+.delivery-info-wrap .delivery-info{
+    position: relative;
+    font-size: .6rem;
+    font-weight: lighter;
+}
+
+.delivery-info-wrap .delivery-info:after{
+    top: 0.11rem;
+}
+
+.delivery-info-wrap .delivery-info .delivery-info-name{
+    margin-right: 1rem;
+    float: right;
+    font-weight: normal;
+}
+
+.coupon-info-wrap{
+    margin-top: .6rem;
+    padding: .8rem;
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+}
+
+.coupon-info-wrap .coupon-info{
+    position: relative;
+    font-size: .6rem;
+}
+
+.coupon-info-wrap .coupon-info:after{
+    top: 0.11rem;
+}
+
+.coupon-info-wrap .coupon-info-label{
+    margin-right: .3rem;
+    font-weight: lighter;
+}
+
+.coupon-info-wrap .coupon-count{
+    margin: 0 .3rem;
+    padding: .2rem .4rem;
+    background-color: #ffc32d;
+    color: #FFFFFF;
+    font-size: .5rem;
+    border-radius: .2rem;
+}
+
+.godmoney-info-wrap{
+    padding: .8rem;
+    border-bottom: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    font-size: .6rem;
+}
+
+.godmoney-info-wrap .godmoney-info{
+    line-height: 1rem;
+}
+
+.godmoney-info-wrap .coupon-info-label{
+    margin-right: .3rem;
+    font-weight: lighter;
+}
+
+.godmoney-info-wrap .godmoney-info .coupon-info-label{
+    color: #666666;
+}
+
+.godmoney-info-wrap .godmoney-info .godmoney-opt{
+    display: inline-block;
+    width: 2rem;
+    height: 1rem;
+    float: right;
+    background-image: url("../img/icon/god_money_open.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.godmoney-info-wrap .godmoney-info .godmoney-opt.close{
+    background-image: url("../img/icon/god_money_close.png");
+}
+
+.godmoney-info-wrap .use-godmoney-info{
+    display: none;
+    margin-top: .3rem;
+}
+
+.godmoney-info-wrap .use-godmoney-info .num{
+    margin-right: .2rem;
+    padding: .2rem .4rem;
+    width: 2.2rem;
+    border: 1px solid #999999;
+    outline: none;
+    border-radius: .2rem;
+}
+
+.invoice-info-wrap{
+    margin-top: .6rem;
+    padding: .8rem;
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    font-size: .6rem;
+}
+
+.invoice-info-wrap .invoice-info{
+    position: relative;
+}
+
+.invoice-info-wrap .invoice-info-label{
+    font-size: .6rem;
+    font-weight: lighter;
+}
+
+.invoice-info-wrap .invoice-info-tips{
+    margin-right: 1rem;
+    font-size: .6rem;
+    font-weight: lighter;
+}
+
+.invoice-info-input{
+    margin-top: .6rem;
+}
+
+#invoiceTitle{
+    padding: .1rem .2rem;
+}
+
+.invoice-info-wrap .invoice-info:after {
+    top: 0.15rem;
+}
+
+.order-detail-price{
+    margin-top: .6rem;
+    padding: .8rem;
+    border: 1px solid #dddddd;
+    background-color: #FFFFFF;
+    font-size: .6rem;
+}
+
+.order-detail-price li{
+    padding: .2rem 0;
+    font-size: .6rem;
+    font-weight: lighter;
+}
+
+.order-detail-price .price{
+    float: right;
+    color: #ff0000;
+}
+
+#rmbvalued{
+    color: #ff0000;
+}
+
+.order-pay-price{
+    position: relative;
+    margin-top: .6rem;
+    padding: .8rem 0;
+    font-size: .8rem;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.commit-btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    background-color: #ffc32d;
+    line-height: 2.5rem;
+    width: 5rem;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 收货地址管理 */
+.addr-list-section .useraddrall{
+    padding: 0 .3rem;
+    background-color: #FFFFFF;
+}
+
+.addr-list-section .useraddrall li{
+    padding: .3rem;
+}
+
+.addr-list-section .useraddrall .addr{
+    display: inline-block;
+    width: 85%;
+    vertical-align: middle;
+ }
+
+.addr-list-section .useraddrall .opt{
+    display: inline-block;
+    width: 10%;
+    text-align: right;
+}
+
+.addr-list-section .useraddrall .addr .user-info{
+    color: #000000;
+    font-size: .6rem;
+}
+
+.addr-list-section .useraddrall .addr .user-addr{
+    color: #666666;
+    font-size: .5rem;
+}
+
+/*.addr-list-section .useraddrall .opt .modifyaddr{
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    background-image: url("../img/icon/edit-add-icon.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
+.addr-list-section .useraddrall .opt img{
+    width: 1rem;
+    height: 1rem;
+}
+
+.cartItem-list-section .goodsitem{
+    display: -webkit-box;
+    padding: .3rem;
+    background-color: #FFFFFF;
+    border-bottom:  1px solid #bababa;
+}
+
+.goodsitem .p-img{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+}
+
+.goodsitem .p-img img{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #DCDCDC;
+    border-radius: .3rem;
+    vertical-align: middle;
+}
+
+.goodsitem .p-name {
+    display: -webkit-box;
+    min-height: 1.2rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
+.goodsitem .goods-price{
+    color: #ff0000;
+}
+
+.goodsitem .goods-quantity{
+    margin-top: .2rem;
+}
+
+.addr-list-section , .cartItem-list-section{
+    display: none;
+}
+
+.goodsitem>span>p{
+    margin: 0 .5rem;
+    width: 100%;
+    font-size: .52rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.choose-delivery-pay-wrap{
+    display: none;
+}
+
+.delivery-wrap{
+    margin-bottom: .4rem;
+    padding: .6rem .4rem;
+    background-color: #FFFFFF;
+    border: 1px solid #bababa;
+}
+
+.delivery-wrap .delivery_title{
+    padding: .3rem 0;
+    color: #333333;
+    font-size: .7rem;
+}
+
+.delivery-wrap .pay_way , .delivery-wrap .dispatch_way{
+    padding: .2rem .5rem;
+}
+
+.delivery-wrap .pay_way .item , .delivery-wrap .dispatch_way .item{
+    margin: 0 .3rem;
+    display: inline-block;
+    width: 4rem;
+    text-align: center;
+    font-size: .6rem;
+    line-height: 1.2rem;
+    border: 1px solid #e3e3e3;
+    border-radius: .3rem;
+}
+
+.delivery-wrap .pay_way .item.selected , .delivery-wrap .dispatch_way .item.selected{
+    color: #ff9c00;
+    border: 1px solid #ff9c00;
+}
+
+#comeforminfo{
+    margin-top: -.4rem;
+    background-color: #FFFFFF;
+    padding: .6rem .4rem;
+}
+
+#comeforminfo p{
+    padding: .3rem .3rem;
+    line-height: .8rem;
+    font-size: .6rem;
+}
+
+#comeforminfo p.line{
+    border-bottom: 1px solid #e3e3e3;
+}
+
+#comeforminfo p label{
+    color: #666666;
+}
+
+#comeformtime{
+    width: 60%;
+    border: none;
+    outline: none;
+    line-height: 1rem;
+}
+
+.comeformaddr-wrap{
+    display: none;
+}
+
+#comeformaddrList{
+    background-color: #FFFFFF;
+}
+
+.comeformaddr-wrap .organizationlist li{
+    padding: .3rem 1rem;
+    border-bottom: 1px solid #e3e3e3;
+    font-size: .6rem;
+    color: #666666;
+    line-height: 1rem;
+}
+
+.comeformaddr-wrap .organizationlist li.selected{
+    color: #ffc32d;
+    border: 1px solid #ffc32d;
+}
+
+.comeformaddr-wrap .organizationlist li .org-name{
+    color: #333333;
+    font-size: .8rem;
+}
+
+.comeformaddr-wrap .organizationlist li .org-info{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.dicount-content-wrap{
+    display: none;
+}
+
+#dicountContentList{
+    padding: .3rem .6rem;
+    background-color: #FFFFFF;
+}
